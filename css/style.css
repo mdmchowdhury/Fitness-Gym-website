@@ -1,0 +1,245 @@
+body{
+	font: 15px/1.5;
+	padding: 0;
+	margin: 0;
+	background-color: #f4f4f4;
+	font-family: 'Roboto Slab', serif;
+}
+
+.container{
+	/*width: 90%;*/
+	margin: auto;
+	overflow: hidden;
+}
+
+header .container {
+    background-color: #003D5D;
+    color: white;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: 4px solid #e8491d;
+    padding-left: 15px;
+
+}
+
+header a{
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+	padding-right: 15px;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+header li {
+	float: left;
+	display: inline;
+	padding: 0 20px;
+	
+}
+
+header #branding{
+	float: left;
+	margin: 0px;
+
+}
+
+header #branding h1{
+	margin: 0;
+
+}
+ 
+header nav{
+	float: right;
+	margin-top: 10px;
+}
+
+
+nav ul li a:hover{
+	color: #e8491d;
+	font-weight: bold;
+	
+}
+
+
+ #branding h1 span{
+	color: #e8491d;
+}
+
+header .active a{
+	color: #e8491d;
+}
+#showcase{
+	min-height: 600px;
+	background: url(../img/celebrate.jpg) no-repeat 0 -70px;
+	text-align: center;
+	width: 100%;
+	background-size: cover;
+	
+}
+
+#showcase h1 {
+    margin-top: 150px;
+    font-family: verdana;
+    font-size: 50px;
+    color: #00868D;
+   
+}
+
+#showcase p {
+   
+    font-family: verdana;
+    font-size: 25px;
+    color: #334249;
+    padding: 0 10px;
+   
+}
+
+.button{
+	height: 38px;
+	background: #e8491d;
+	border: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: white;
+	margin-top: 10px;
+	
+
+}
+
+.button:hover{
+	
+	background: #FF504B;
+	color: #000000;
+}
+	
+
+#boxes{
+	margin-top: 20px;
+
+}
+
+#boxes .box{
+	float: left;
+	width: 30%;	
+	text-align: center;
+	padding: 25px 6px;
+	box-sizing: border-box;
+}
+
+#boxes .box h3 a{
+	text-decoration: none;
+	color: black;
+}
+
+#boxes .box img{
+	width: 120px;
+}
+
+
+
+.simple-subscription-form {
+  background: #0c3e5f;
+  color: #fefefe;
+  padding: 2rem;
+  border-radius: 0;
+
+}
+
+.simple-subscription-form .button {
+  margin-bottom: 0;
+  border-radius: 0 0 0 0;
+
+}
+
+.input-group-field{
+	margin-right: 20px;
+	padding: 10px 0;
+	width: 250px;
+	
+}
+
+.simple-subscription-form{
+	text-align: center;
+}
+
+.col{
+	float: left;
+	width: 60%;
+	text-align: justify;
+	margin-top: 10px;
+	padding: 0 25px;
+}
+.sidebar{
+	float: right;
+	width: 25%;
+	text-align: justify;
+	margin-top: 15px;
+	padding: 0 30px;
+}
+.dark{
+	padding: 2px 15px;
+	background-color: #35424a;
+	color: white;
+	margin-top: 10px;
+	text-align: center;
+
+
+}
+
+/* Services*/
+ul#services li{
+	list-style: none;
+	padding: 20px;
+	border: 2px solid #cccccc;
+	margin-bottom: 5px;
+	background-color: #e6e6e6;
+
+}
+
+aside#sidebar .discount input, aside#sidebar .disoucnt textarea {
+	width: 90%;
+	padding-top: 5px;
+
+}
+
+input[type="text"]{
+	margin-bottom: 10px;
+}
+
+
+footer{
+	padding: 20px;
+	margin-top: 20px;
+	color: white;
+	background-color: #e8491d;
+	text-align: center;
+	font-family: 'Roboto Slab', serif;
+}
+
+/*Media queries*/
+@media (max-width: 768px){
+	header #branding, header nav, header nav li, #boxes .box, #main .col, aside.sidebar, .dark
+	{
+	float:none;
+	text-align:center;
+	width: 93%;
+}
+header .container{
+	padding-bottom: 20px;
+}
+
+#showcase h1{
+	margin-top: 150px;
+}
+.discount .button{
+	width: 164px;
+}
+textarea {
+    width: 164px;
+}
+}
